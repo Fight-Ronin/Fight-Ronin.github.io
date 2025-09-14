@@ -23,7 +23,7 @@
                   Hanzhang (Henry) Yin
                 </p>
                 <p>
-                    Currently, I am a Master’s student in the <a href="https://cs.brown.edu/" target="_blank" rel="noopener">Department of Computer Science at Brown University</a> in Providence, Rhode Island, where I work on machine learning and deep computer vision. 
+                    Currently, I am a Master’s student in the <a href="https://cs.brown.edu/" target="_blank" rel="noopener">Department of Computer Science at Brown University</a> in Providence, Rhode Island, where I work on machine learning and computer vision related researches.
                     I completed my undergraduate studies at the <a href="https://www.cs.rochester.edu/index.html" target="_blank" rel="noopener">University of Rochester</a>, earning dual degrees in Computer Science and Applied Mathematics.
                 <p style="text-align:center">
                   <a href="hanzhang_yin@brown.edu">Email</a> &nbsp;/&nbsp;
@@ -115,6 +115,34 @@
             </p>
           </td>
         </tr>
+        
+        <tr>
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <img src='images/Survey_lora.png' width="160" alt="QR code project thumbnail">
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="data/Survey_to_LoRa_Report.pdf">
+              <span class="papertitle">A Survey on LoRA and its Variants' preservation to Llama3 8B's math and logical reasoning abilities  </span>
+            </a>
+            <br>
+            </strong>Hanzhang Yin*, Kevin Lu*, Tianyi Zhou* (*: equal contribution)</strong>
+            <br>
+            (University of Rochester)
+            <br>
+            <em>Research project, Sep 2024 — Nov 2024</em>
+            <br>
+            <p>
+              This survey focus on the LoRA variants (1) Downstream adaptation, (2) math tasks performance,
+              and (3) Reasoning skills given different difficulty levels assessing their abilities on Large Language
+              Model. Specifically, we will r un s everal b enchmark tests
+              on different variants of LoRA (including LoRA itself) using
+              model LLaMA-3 (8 bit) on dataset GSM8k and GSM-Plus,
+              dataset that primarily focusing on leverage model's mathematical
+              inference ability, and analyze their behavior.
+            </p>
+          </td>
+        </tr>
+
         <tr>
           <td style="padding:16px;width:20%;vertical-align:middle">
             <img src='images/Fangcheng_math.jpg' width="160" alt="Some Math Dump">
@@ -137,7 +165,6 @@
             </p>
           </td>
         </tr>
-      </tbody></table>
       <!-- ===== End Research Section ===== -->
 
       <!-- ===== Internship ===== -->
@@ -154,8 +181,6 @@
             </a>
             <br>
             </strong>Hanzhang (Henry) Yin</strong>, Advisor: Prof. Yan Wang
-            <br>
-            (Tsinghua University)
             <br>
             <em> Software Development Engineer Intern, Jun 2023 — Aug 2023</em>
             <br>
@@ -183,6 +208,36 @@
 
       <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <!-- Mini‑CLEVR VQA – Baseline Experiments -->
+        <tr>
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <img src='images/VQA.png' width="160" alt="QR code project thumbnail">
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://github.com/Fight-Ronin/Mini-CLEVR-VQA-Experiment">
+              <span class="papertitle">Mini-CLEVR VQA Experiment</span>
+            </a>
+            <br>
+            <em>Apr 2025</em>
+            <br>
+            <p>
+              Mini-CLEVR-VQA-Experiment is a lightweight VQA playground built on a synthetic Mini-CLEVR dataset. 
+              It ships with two strong, small-parameter baselines:
+              <ul>
+                <li>
+                  ResNet-18 + SBERT
+                </li>
+                <li>
+                  CLIP ViT-B/32 + LoRA (r=8)
+                </li>
+              </ul>
+              And a simple fusion head (cat ⊕ mix ⊕ |diff|) to make ablations fast and reproducible.
+            </p>
+          </td>
+        </tr>
+        
         <!-- Robust QR Code Scanner & Decoder -->
         <tr>
           <td style="padding:16px;width:20%;vertical-align:middle">
@@ -190,13 +245,14 @@
           </td>
           <td style="padding:8px;width:80%;vertical-align:middle">
             <a href="https://github.com/Fight-Ronin/QRCodeDetector">
-              <span class="papertitle">Robust QR Code Scanner and Decoder </span>
+              <span class="papertitle">Robust QR Code Scanner and Decoder</span>
             </a>
             <br>
-            <em>Apr 2024</em>
+            <em>May 2024</em>
             <br>
             <p>
-              Implemented Sauvola binarization and connected-component analysis to detect finder patterns; computed bounding boxes via right‑angle triangle geometry for pose estimation. Real‑time (~20 FPS) decoding with Kalman filtering for jitter‑reduced tracking.
+              This is a QR Code scanner purely relied on traditional Computer Vision Algorithms. Here is the design pipline:
+              (1) Implemented Sauvola binarization and connected-component analysis to detect finder patterns; (2) computed bounding boxes via right‑angle triangle geometry for pose estimation. (3) Real-time (~20 FPS) decoding with Kalman filtering for jitter-reduced tracking.
             </p>
           </td>
         </tr>
@@ -235,7 +291,9 @@
             <em>Oct 2020</em>
             <br>
             <p>
-              Enter a world of mysteries and puzzles as a reckless adventurer seeking hidden truths. Pay close attention to environmental details to progress. 
+              Small 3D indie game DEMO made by Unity.
+              <br>
+              Description: Enter a world of mysteries and puzzles as a reckless adventurer seeking hidden truths. Pay close attention to environmental details to progress. 
               Level 1 is available now.
             </p>
           </td>
@@ -281,7 +339,7 @@
                   I am a Trumpet Player for 8 years long! Play classical music the most, currently learning jazz.
                 </li>
                 <li>
-                  I am a ethuiast gamer who love playing FPS, Adventure, ARPG, Sandbox, and a gazillion types of games. 
+                  I am a ethuiast gamer who love playing FPS (*CS2* Especially), Adventure, ARPG, Sandbox, and a gazillion types of games. 
                   Here is my steam <a href="https://steamcommunity.com/id/Fight_Ronin/">profile link</a>. If you want to play with me, feel free to sent out a friend request!
                 </li>
                 <li>
