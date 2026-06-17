@@ -266,6 +266,36 @@
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td colspan="2" style="padding:16px 16px 0;width:100%;vertical-align:middle">
+                <h3 class="subhead">Graphics Related Work</h3>
+              </td>
+            </tr>
+
+            <!-- ReSTIR-GS -->
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/restir_gs.png' width="160" alt="ReSTIR-GS thumbnail" style="width:160px;height:110px;object-fit:contain;border-radius:8px;background:#05090b;">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://github.com/Fight-Ronin/ReSTIR-GS" target="_blank" rel="noopener">
+                  <span class="papertitle">ReSTIR-GS</span>
+                </a>
+                <br>
+                <em>June 2026</em>
+                <br>
+                <p>
+                  Built an experimental real-time rendering pipeline for Gaussian Splatting that adapts ReSTIR-style reservoir resampling to reuse high-contribution candidates across pixels and frames. The project focuses on visibility-aware sample reuse, temporal stability, reservoir weight updates, and quality-performance tradeoffs for interactive novel-view rendering.
+                </p>
+                <p>
+                  <span class="tag">Gaussian Splatting</span>
+                  <span class="tag">ReSTIR</span>
+                  <span class="tag">Real-Time Rendering</span>
+                  <span class="tag">Computer Graphics</span>
+                </p>
+              </td>
+            </tr>
+
             <!-- Sand2016 -->
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
@@ -311,6 +341,103 @@
                   <span class="tag">PBR</span>
                   <span class="tag">Procedural Generation</span>
                   <span class="tag">L-Systems</span>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ===== More Graphics (course projects) ===== -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h3 class="subhead">More Graphics</h3>
+                <div class="cards">
+                  <!-- Path Tracing -->
+                  <div class="card">
+                    <a class="thumb" href="images/path_tracer.png" target="_blank" rel="noopener">
+                      <img src="images/path_tracer.png" alt="Path Tracing thumbnail" onerror="this.parentElement.classList.add('noimg')">
+                      <span class="enlarge">Click to enlarge</span>
+                      <span class="ph">Path<br>Tracing</span>
+                    </a>
+                    <div class="body">
+                      <span class="ct">Path Tracing</span>
+                      <span class="cd">Diffuse, glossy, mirror, and refraction BRDFs with direct lighting importance sampling, Russian roulette, and Extended Reinhard tone mapping.</span>
+                    </div>
+                  </div>
+
+                  <!-- Geometry Processing -->
+                  <div class="card">
+                    <a class="thumb" href="images/geo_processing.png" target="_blank" rel="noopener">
+                      <img src="images/geo_processing.png" alt="Geometry Processing thumbnail" onerror="this.parentElement.classList.add('noimg')">
+                      <span class="enlarge">Click to enlarge</span>
+                      <span class="ph">Geometry<br>Processing</span>
+                    </a>
+                    <div class="body">
+                      <span class="ct">Geometry Processing</span>
+                      <span class="cd">Half-edge mesh data structure, Loop subdivision, Quadric Error simplification, isotropic remeshing, and bilateral mesh denoising.</span>
+                      <a class="cl" href="https://dl.acm.org/doi/epdf/10.1145/258734.258849" target="_blank" rel="noopener">Paper</a>
+                    </div>
+                  </div>
+
+                  <!-- ARAP Deformation -->
+                  <div class="card">
+                    <a class="thumb" href="images/ARAP_armadillo.gif" target="_blank" rel="noopener">
+                      <img src="images/ARAP_armadillo.gif" alt="ARAP Deformation thumbnail" onerror="this.parentElement.classList.add('noimg')">
+                      <span class="enlarge">Click to enlarge</span>
+                      <span class="ph">ARAP<br>Deformation</span>
+                    </a>
+                    <div class="body">
+                      <span class="ct">ARAP Deformation</span>
+                      <span class="cd">Cotangent-weight Laplacian, SVD-based rotation fitting, sparse linear system solving, with rotation propagation and parallelized optimization. Based on Sorkine &amp; Alexa, “As-Rigid-As-Possible Surface Modeling.”</span>
+                      <a class="cl" href="https://igl.ethz.ch/projects/ARAP/arap_web.pdf" target="_blank" rel="noopener">Paper</a>
+                    </div>
+                  </div>
+
+                  <!-- Fluid Simulation -->
+                  <div class="card">
+                    <a class="thumb" href="images/sim.gif" target="_blank" rel="noopener">
+                      <img src="images/sim.gif" alt="Fluid Simulation thumbnail" onerror="this.parentElement.classList.add('noimg')">
+                      <span class="enlarge">Click to enlarge</span>
+                      <span class="ph">Fluid<br>Simulation</span>
+                    </a>
+                    <div class="body">
+                      <span class="ct">Fluid Simulation</span>
+                      <span class="cd">“Stable Fluids”-style incompressible gas solver on an Eulerian grid: external forces, semi-Lagrangian advection with trilinear interpolation, sparse diffusion and pressure-projection solves, and no-escape boundary conditions, with particle and density advection for visualization.</span>
+                      <a class="cl" href="https://pages.cs.wisc.edu/~chaol/data/cs777/stam-stable_fluids.pdf" target="_blank" rel="noopener">Paper</a>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+          <!-- ===== End More Graphics Section ===== -->
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td colspan="2" style="padding:16px 16px 0;width:100%;vertical-align:middle">
+                <h3 class="subhead">Other Projects</h3>
+              </td>
+            </tr>
+
+            <!-- Token Helper -->
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/token_helper.png' width="160" alt="Token Helper thumbnail" style="width:160px;height:110px;object-fit:contain;border-radius:8px;">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://github.com/Fight-Ronin/token-helper" target="_blank" rel="noopener">
+                  <span class="papertitle">Token Helper</span>
+                </a>
+                <br>
+                <em>June 2026</em>
+                <br>
+                <p>
+                  Built a lightweight utility for working with text tokens and prompt inputs, helping users inspect, estimate, and manage token usage during AI-assisted workflows.
+                </p>
+                <p>
+                  <span class="tag">Developer Tooling</span>
+                  <span class="tag">AI Utility</span>
+                  <span class="tag">Productivity</span>
                 </p>
               </td>
             </tr>
@@ -405,71 +532,6 @@
             </tr>
           </tbody></table>
 
-          <!-- ===== More Graphics (course projects) ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h3 class="subhead">More Graphics</h3>
-                <div class="cards">
-                  <!-- Path Tracing -->
-                  <div class="card">
-                    <a class="thumb" href="images/path_tracer.png" target="_blank" rel="noopener">
-                      <img src="images/path_tracer.png" alt="Path Tracing thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">Path<br>Tracing</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">Path Tracing</span>
-                      <span class="cd">Diffuse, glossy, mirror, and refraction BRDFs with direct lighting importance sampling, Russian roulette, and Extended Reinhard tone mapping.</span>
-                    </div>
-                  </div>
-
-                  <!-- Geometry Processing -->
-                  <div class="card">
-                    <a class="thumb" href="images/geo_processing.png" target="_blank" rel="noopener">
-                      <img src="images/geo_processing.png" alt="Geometry Processing thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">Geometry<br>Processing</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">Geometry Processing</span>
-                      <span class="cd">Half-edge mesh data structure, Loop subdivision, Quadric Error simplification, isotropic remeshing, and bilateral mesh denoising.</span>
-                      <a class="cl" href="https://dl.acm.org/doi/epdf/10.1145/258734.258849" target="_blank" rel="noopener">Paper</a>
-                    </div>
-                  </div>
-
-                  <!-- ARAP Deformation -->
-                  <div class="card">
-                    <a class="thumb" href="images/ARAP_armadillo.gif" target="_blank" rel="noopener">
-                      <img src="images/ARAP_armadillo.gif" alt="ARAP Deformation thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">ARAP<br>Deformation</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">ARAP Deformation</span>
-                      <span class="cd">Cotangent-weight Laplacian, SVD-based rotation fitting, sparse linear system solving, with rotation propagation and parallelized optimization. Based on Sorkine &amp; Alexa, “As-Rigid-As-Possible Surface Modeling.”</span>
-                      <a class="cl" href="https://igl.ethz.ch/projects/ARAP/arap_web.pdf" target="_blank" rel="noopener">Paper</a>
-                    </div>
-                  </div>
-
-                  <!-- Fluid Simulation -->
-                  <div class="card">
-                    <a class="thumb" href="images/sim.gif" target="_blank" rel="noopener">
-                      <img src="images/sim.gif" alt="Fluid Simulation thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">Fluid<br>Simulation</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">Fluid Simulation</span>
-                      <span class="cd">“Stable Fluids”-style incompressible gas solver on an Eulerian grid: external forces, semi-Lagrangian advection with trilinear interpolation, sparse diffusion and pressure-projection solves, and no-escape boundary conditions, with particle and density advection for visualization.</span>
-                      <a class="cl" href="https://pages.cs.wisc.edu/~chaol/data/cs777/stam-stable_fluids.pdf" target="_blank" rel="noopener">Paper</a>
-                    </div>
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- ===== End More Graphics Section ===== -->
           <!-- ===== End Projects Section ===== -->
 
           <!-- ===== Teaching Section ===== -->
