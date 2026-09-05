@@ -1,614 +1,493 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Hanzhang (Henry) Yin</title>
-
-    <meta name="author" content="Hanzhang (Henry) Yin">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
-    <style>
-      .quicklinks{ text-align:center; margin:8px 0 18px }
-      .quicklinks .title{ font-weight:700; font-size:20px; margin-bottom:6px }
-      .quicklinks a{ margin:0 12px; text-decoration:underline; color:#2a1a8a; }
-      .quicklinks a:hover{ text-decoration:none }
-      .tag{font-size:12px; color:#555; background:#f3f3f3; border-radius:999px; padding:2px 7px; margin-right:4px; white-space:nowrap; display:inline-block; margin-top:4px}
-      .projectlinks a{font-size:14px; margin-right:8px}
-      .note{color:#555}
-
-      /* Image gallery */
-      .gallery3{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-      .gallery3 figure{margin:0;width:400px;text-align:center}
-      .gallery3 img{width:100%;border-radius:6px}
-      .solo figure{margin:16px auto;max-width:500px;text-align:center}
-      .solo img{width:100%;border-radius:6px}
-      figcaption{font-size:0.8em;color:#555;margin-top:4px;line-height:1.3}
-      .gallery2{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-      .gallery2 figure{margin:0;width:400px;text-align:center}
-      .gallery2 img{width:100%;border-radius:6px}
-
-      /* Footer */
-      .footer-note{text-align:center;font-size:12px;color:#555;margin:24px 0 16px;line-height:1.4}
-      .footer-note a{color:#2a1a8a}
-
-      /* Course-project cards (More Graphics) */
-      .subhead{font-family:'Lato',Verdana,Helvetica,sans-serif;font-weight:700;font-size:18px;margin:0 0 12px}
-      .cards{display:flex;flex-wrap:wrap;gap:14px}
-      .card{flex:1 1 calc(50% - 14px);min-width:300px;display:flex;gap:14px;align-items:center;background:#eaf1f3;border-left:4px solid #8fb5ab;border-radius:10px;padding:14px;box-sizing:border-box}
-      .card .thumb{position:relative;flex:0 0 120px;width:120px;height:90px;display:block}
-      .card .thumb img{width:120px;height:90px;object-fit:cover;border-radius:6px;display:block}
-      .card .thumb .enlarge{position:absolute;left:6px;bottom:6px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;padding:1px 6px;border-radius:4px}
-      .card .thumb .ph{display:none}
-      .card .thumb.noimg img,.card .thumb.noimg .enlarge{display:none}
-      .card .thumb.noimg .ph{display:flex;align-items:center;justify-content:center;width:120px;height:90px;border:1px solid #cfd8dc;border-radius:6px;color:#667;font-size:12px;font-weight:700;text-align:center}
-      .card .body .ct{font-weight:700;font-size:15px;display:block;margin-bottom:4px}
-      .card .body .cd{font-size:13px;color:#444;line-height:1.4}
-      .card .body .cl{display:inline-block;margin-top:6px;font-size:12px;color:#2a1a8a;text-decoration:underline}
-      .card .body .cl:hover{text-decoration:none}
-    </style>
+    <meta
+      name="description"
+      content="Hanzhang (Henry) Yin builds graphics, simulation, and embodied AI systems that make digital worlds look right, move right, and behave as intended."
+    >
+    <meta name="theme-color" content="#101316">
+    <title>Hanzhang (Henry) Yin — Graphics, Simulation &amp; Embodied AI</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="slogan.js" defer></script>
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Hanzhang (Henry) Yin
-                </p>
-                <p>
-                  I am a Master’s student in the <a href="https://cs.brown.edu/" target="_blank" rel="noopener">Department of Computer Science at Brown University</a>, advised by <a href="https://dritchie.github.io/" target="_blank" rel="noopener">Prof. Daniel Ritchie</a>. My current research focuses on <b>interactive articulated 3D objects</b>, <b>computer graphics</b>, <b>simulation</b>, and <b>embodied AI</b>. In particular, I am working on asset-level operational logic for objects such as latches, buttons, pedals, timers, interlocks, and coupled joints.
-                </p>
-                <p>
-                  I completed my undergraduate studies at the <a href="https://www.rochester.edu/" target="_blank" rel="noopener">University of Rochester</a>, earning dual B.S. degrees in Computer Science and Applied Mathematics. I also work on medical AI, image/video generation and compression, reinforcement learning, and computer vision.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:hanzhang_yin@brown.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="data/CV_HanzhangYin.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/henryyin12/" target="_blank" rel="noopener">LinkedIn</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/HenryRuuu" target="_blank" rel="noopener">X</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/Fight-Ronin/" target="_blank" rel="noopener">GitHub</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/HanzhangYin.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/HanzhangYin.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-          <!-- ===== Quick Links ===== -->
-          <div class="quicklinks">
-            <div class="title">Quick Links</div>
-            <a href="#research">Research</a>
-            <a href="#projects">Projects</a>
-            <a href="#teaching">Teaching</a>
-            <a href="#internship">Internship</a>
-            <a href="#fun">Other Fun Stuff</a>
-            <!-- <a href="#gallery">Gallery</a> -->
+    <header class="site-header">
+      <nav class="site-nav shell" aria-label="Primary navigation">
+        <div class="site-identity">
+          <a class="wordmark" href="#top" aria-label="Hanzhang Yin, home">
+            <span class="wordmark-mark" aria-hidden="true">HY</span>
+            <span>Hanzhang Yin</span>
+          </a>
+          <div class="page-switch" role="group" aria-label="Page selection">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="blog/blog.html">Blog</a>
           </div>
-          <!-- ===== End Quick Links ===== -->
+        </div>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#research">Research</a>
+          <a href="#experience">Experience</a>
+          <a href="#tools">Tools</a>
+          <a href="#about">About</a>
+          <a class="nav-resume" href="data/CV_HanzhangYin.pdf">Résumé</a>
+        </div>
+      </nav>
+    </header>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2 id="research">Research</h2>
-                <p>
-                  My research interests span <b>computer graphics</b>, <b>interactive 3D worlds</b>, <b>simulation</b>, <b>embodied AI</b>, and <b>machine learning</b>. My current work studies how operational behavior can be represented explicitly and travel with articulated assets across simulation backends. I have also worked on medical AI for Parkinson’s disease prognosis, image/video compression and generation, and computational history of mathematics.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <!-- ===== Research ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <!-- IOL Research -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/IOL.png' width="160" alt="Intrinsic Operational Logic thumbnail" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=&quot;width:160px;height:110px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;color:#555;font-weight:bold;&quot;>Intrinsic<br>Operational<br>Logic</div>'">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">Operational Logic for Interactive Articulated Objects</span>
-                <br>
-                <strong>Hanzhang (Henry) Yin</strong>, Advisor: Prof. Daniel Ritchie
-                <br>
-                (Brown University)
-                <br>
-                <em>Research project, Sep 2025 — Present</em>
-                <br>
-                <p>
-                  Developing <b>Intrinsic Operational Logic (IOL)</b>, a portable asset-level representation for interactive articulated objects. IOL encodes object-local rules such as latches, buttons, pedals, timers, interlocks, joint coupling, and multi-step state-dependent operation.
-                </p>
-                <p>
-                  Implemented an object-local update mediator that intercepts simulator-proposed joint updates and can permit, block, clamp, couple, or augment them using grounded propositions, temporal constraints, and conditioned effects. Built an LLM-assisted authoring pipeline with controller synthesis and semantic-trace repair for evaluating operational object traces and embodied interaction tasks.
-                </p>
-                <p>
-                  <span class="tag">Computer Graphics</span>
-                  <span class="tag">Articulated Objects</span>
-                  <span class="tag">DSL</span>
-                  <span class="tag">LTL / GR(1)</span>
-                  <span class="tag">LLM Authoring</span>
-                  <span class="tag">Embodied AI</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- PRISM / PD & Hospice ML Research -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/PD_hospice.png' width="160" alt="PD Hospice ML thumbnail">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">PRISM: PD End-of-Life Prognostication</span>
-                <br>
-                Jennifer Corcoran, MD; Hanjia Lyu; <strong>Hanzhang (Henry) Yin</strong>; Brian McGarry, PhD; Thomas Caprio, MD, MPH; Amy Ogilvie, PhD; Andrew Huang, MD; Jiebo Luo, PhD; Benzi M. Kluger, MD, MS
-                <br>
-                (University of Rochester / URMC)
-                <br>
-                <em>Research project, Feb 2024 — Feb 2026</em>
-                <br>
-                <p>
-                  Developed PRISM, a Parkinson’s-disease-specific machine learning model for 6-month end-of-life prognostication among nursing home residents, addressing the lack of empirically validated PD-specific hospice prediction tools.
-                </p>
-                <p>
-                  Built and evaluated Logistic Regression, LightGBM, Random Forest, Naïve Bayes, and Bi-LSTM models across Admission, LongStay, and Panel time-series datasets in collaboration with clinicians at URMC. Compared against Medicare hospice guideline baselines using AUC, sensitivity, specificity, precision, recall, and F1-score, and analyzed feature-selection patterns for clinically interpretable mortality-risk signals.
-                </p>
-                <p>
-                  <span class="tag">Medical AI</span>
-                  <span class="tag">Clinical ML</span>
-                  <span class="tag">Prognostication</span>
-                  <span class="tag">LightGBM</span>
-                  <span class="tag">Bi-LSTM</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Image Compression & Generation -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/DCVC_dps.png' width="160" alt="DCVC + DPS thumbnail">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">Image Compression and Generation Research</span>
-                <br>
-                <strong>Hanzhang (Henry) Yin</strong>, Advisor: Prof. Yan Wang
-                <br>
-                (Tsinghua AIR Lab)
-                <br>
-                <em>Research project, Jul 2024 — Oct 2024</em>
-                <br>
-                <p>
-                  Investigated combining Deep Contextual Video Compression (DCVC) with Diffusion Posterior Sampling (DPS) for codec-style image/video pipelines that integrate compression, denoising, and generative reconstruction. Evaluated on ImageNet-1k using FID and PSNR.
-                </p>
-                <p>
-                  <span class="tag">Compression</span>
-                  <span class="tag">Diffusion Models</span>
-                  <span class="tag">FID / PSNR</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Fangcheng Math Paper -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/Fangcheng_math.jpg' width="160" alt="Fangcheng mathematics thumbnail">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="data/An-Analysis-Of-Rectangular-Arrays-In-Ancient-Chinese-Mathmatics.pdf" target="_blank" rel="noopener">
-                  <span class="papertitle">The Ancient Roots of Linear Algebra: An Analysis of Rectangular Arrays in Chinese Mathematics</span>
-                </a>
-                <br>
-                <strong>Hanzhang (Henry) Yin</strong>, Advisor: Prof. Matthew Dannenberg
-                <br>
-                (University of Rochester)
-                <br>
-                <em>Research project, Jan 2024 — Apr 2024</em>
-                <br>
-                <p>
-                  Studied the development of linear-algebraic reasoning in ancient Chinese mathematics through <em>The Nine Chapters on the Mathematical Art</em>, focusing on the “Excess and Deficits” and “Fangcheng Procedure” chapters. Compared historical rectangular-array methods with modern linear algebra to examine how mathematical representation and elimination-style reasoning evolved.
-                </p>
-                <p>
-                  <span class="tag">History of Mathematics</span>
-                  <span class="tag">Linear Algebra</span>
-                  <span class="tag">Chinese Mathematics</span>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- ===== End Research Section ===== -->
-
-          <!-- ===== Internship ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2 id="internship">Internship</h2>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <!-- KeeperAI -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/keeperAi.jpg' width="160" alt="KeeperAI Ltd.">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://keeperai.com/" target="_blank" rel="noopener">
-                  <span class="papertitle">KeeperAI</span>
-                </a>
-                <br>
-                <strong>Hanzhang (Henry) Yin</strong>
-                <br>
-                <em>Software Development Engineer Intern, Jun 2023 — Aug 2023</em>
-                <br>
-                <p>
-                  Developed and enhanced front-end webpage designs using JavaScript and Fluent UI, integrating external NLP chatbot plugins to facilitate event scheduling within the Microsoft Teams app. Resolved security vulnerabilities in the user login verification module by redesigning regular expressions and improving account-verification logic between the website and database APIs.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- ===== End Internship Section ===== -->
-
-          <!-- ===== Projects Section ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2 id="projects">Projects</h2>
-                <p>
-                  Selected implementation-heavy projects from coursework and independent development. These span graphics, simulation, reinforcement learning, computer vision, and visual question answering.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td colspan="2" style="padding:16px 16px 0;width:100%;vertical-align:middle">
-                <h3 class="subhead">Graphics Related Work</h3>
-              </td>
-            </tr>
-
-            <!-- ReSTIR-GS -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/restir_gs.png' width="160" alt="ReSTIR-GS thumbnail" style="width:160px;height:110px;object-fit:contain;border-radius:8px;background:#05090b;">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://github.com/Fight-Ronin/ReSTIR-GS" target="_blank" rel="noopener">
-                  <span class="papertitle">ReSTIR-GS</span>
-                </a>
-                <br>
-                <em>June 2026</em>
-                <br>
-                <p>
-                  Built an experimental real-time rendering pipeline for Gaussian Splatting that adapts ReSTIR-style reservoir resampling to reuse high-contribution candidates across pixels and frames. The project focuses on visibility-aware sample reuse, temporal stability, reservoir weight updates, and quality-performance tradeoffs for interactive novel-view rendering.
-                </p>
-                <p>
-                  <span class="tag">Gaussian Splatting</span>
-                  <span class="tag">ReSTIR</span>
-                  <span class="tag">Real-Time Rendering</span>
-                  <span class="tag">Computer Graphics</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Sand2016 -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/sand2016.png' width="160" alt="Sand2016 thumbnail" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=&quot;width:160px;height:110px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;color:#555;font-weight:bold;&quot;>MPM Sand<br>Simulation</div>'">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://github.com/Fight-Ronin/Sand2016" target="_blank" rel="noopener">
-                  <span class="papertitle">Sand2016 — MPM Sand Simulation with Drucker–Prager Elastoplasticity</span>
-                </a>
-                <br>
-                <em>Apr 2026</em>
-                <br>
-                <p>
-                  Co-developed a physics-based sand simulator by extending the MATTER MPM framework with a Klar et al.-style Drucker–Prager elastoplasticity model for granular material animation. Implemented return mapping, per-particle hardening, friction-angle control, cone-parameter projection, and scenes for hourglass flow, pouring piles, stick-drag trenches, notched-block collapse, chute, and funnel tests.
-                </p>
-                <p>
-                  <span class="tag">MPM</span>
-                  <span class="tag">Physics Simulation</span>
-                  <span class="tag">Elastoplasticity</span>
-                  <span class="tag">Computer Graphics</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Amazing Terrain -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/Amazing_Terrain.png' width="160" alt="Amazing Terrain thumbnail" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=&quot;width:160px;height:110px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;color:#555;font-weight:bold;&quot;>Amazing<br>Terrain</div>'">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://github.com/Fight-Ronin/Amazing-Terrain" target="_blank" rel="noopener">
-                  <span class="papertitle">Amazing Terrain — Real-Time Procedural Environment Renderer</span>
-                </a>
-                <br>
-                <em>Dec 2025</em>
-                <br>
-                <p>
-                  Built a real-time procedural environment renderer featuring fBm/ridged-noise terrain generation, multi-layer PBR material blending, normal mapping, tri-planar texture projection, and animated water. Implemented L-System vegetation with randomized turtle grammar, biome-aware tree placement, and OpenGL instanced rendering, plus weather particles, fog, HDR rendering, color grading, and Bézier camera paths.
-                </p>
-                <p>
-                  <span class="tag">OpenGL</span>
-                  <span class="tag">GLSL</span>
-                  <span class="tag">PBR</span>
-                  <span class="tag">Procedural Generation</span>
-                  <span class="tag">L-Systems</span>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <!-- ===== More Graphics (course projects) ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h3 class="subhead">More Graphics</h3>
-                <div class="cards">
-                  <!-- Path Tracing -->
-                  <div class="card">
-                    <a class="thumb" href="images/path_tracer.png" target="_blank" rel="noopener">
-                      <img src="images/path_tracer.png" alt="Path Tracing thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">Path<br>Tracing</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">Path Tracing</span>
-                      <span class="cd">Diffuse, glossy, mirror, and refraction BRDFs with direct lighting importance sampling, Russian roulette, and Extended Reinhard tone mapping.</span>
-                    </div>
-                  </div>
-
-                  <!-- Geometry Processing -->
-                  <div class="card">
-                    <a class="thumb" href="images/geo_processing.png" target="_blank" rel="noopener">
-                      <img src="images/geo_processing.png" alt="Geometry Processing thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">Geometry<br>Processing</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">Geometry Processing</span>
-                      <span class="cd">Half-edge mesh data structure, Loop subdivision, Quadric Error simplification, isotropic remeshing, and bilateral mesh denoising.</span>
-                      <a class="cl" href="https://dl.acm.org/doi/epdf/10.1145/258734.258849" target="_blank" rel="noopener">Paper</a>
-                    </div>
-                  </div>
-
-                  <!-- ARAP Deformation -->
-                  <div class="card">
-                    <a class="thumb" href="images/ARAP_armadillo.gif" target="_blank" rel="noopener">
-                      <img src="images/ARAP_armadillo.gif" alt="ARAP Deformation thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">ARAP<br>Deformation</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">ARAP Deformation</span>
-                      <span class="cd">Cotangent-weight Laplacian, SVD-based rotation fitting, sparse linear system solving, with rotation propagation and parallelized optimization. Based on Sorkine &amp; Alexa, “As-Rigid-As-Possible Surface Modeling.”</span>
-                      <a class="cl" href="https://igl.ethz.ch/projects/ARAP/arap_web.pdf" target="_blank" rel="noopener">Paper</a>
-                    </div>
-                  </div>
-
-                  <!-- Fluid Simulation -->
-                  <div class="card">
-                    <a class="thumb" href="images/sim.gif" target="_blank" rel="noopener">
-                      <img src="images/sim.gif" alt="Fluid Simulation thumbnail" onerror="this.parentElement.classList.add('noimg')">
-                      <span class="enlarge">Click to enlarge</span>
-                      <span class="ph">Fluid<br>Simulation</span>
-                    </a>
-                    <div class="body">
-                      <span class="ct">Fluid Simulation</span>
-                      <span class="cd">“Stable Fluids”-style incompressible gas solver on an Eulerian grid: external forces, semi-Lagrangian advection with trilinear interpolation, sparse diffusion and pressure-projection solves, and no-escape boundary conditions, with particle and density advection for visualization.</span>
-                      <a class="cl" href="https://pages.cs.wisc.edu/~chaol/data/cs777/stam-stable_fluids.pdf" target="_blank" rel="noopener">Paper</a>
-                    </div>
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- ===== End More Graphics Section ===== -->
-
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td colspan="2" style="padding:16px 16px 0;width:100%;vertical-align:middle">
-                <h3 class="subhead">Other Projects</h3>
-              </td>
-            </tr>
-
-            <!-- Token Helper -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/token_helper.png' width="160" alt="Token Helper thumbnail" style="width:160px;height:110px;object-fit:contain;border-radius:8px;">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://github.com/Fight-Ronin/token-helper" target="_blank" rel="noopener">
-                  <span class="papertitle">Token Helper</span>
-                </a>
-                <br>
-                <em>June 2026</em>
-                <br>
-                <p>
-                  Built a lightweight utility for working with text tokens and prompt inputs, helping users inspect, estimate, and manage token usage during AI-assisted workflows.
-                </p>
-                <p>
-                  <span class="tag">Developer Tooling</span>
-                  <span class="tag">AI Utility</span>
-                  <span class="tag">Productivity</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- RL Arena -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/Arena_RL.png' width="160" alt="RL Arena thumbnail" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=&quot;width:160px;height:110px;border:1px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;color:#555;font-weight:bold;&quot;>RL<br>Arena</div>'">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="data/Arena_RL.pdf" target="_blank" rel="noopener">
-                  <span class="papertitle">Belief-Aware Multi-Agent RL Agent for Partially Observable Battle Arena</span>
-                </a>
-                <br>
-                <em>Dec 2025</em>
-                <br>
-                <p>
-                  Designed a belief-aware agent for a partially observable multi-agent grid-combat environment with latent strengths, simultaneous actions, stochastic combat outcomes, and global combat broadcasts. Combined Beta-Bernoulli strength posteriors, pairwise combat belief estimation, compact relational state abstraction, and bias–risk-shaped tabular Q-learning; evaluated against baseline and ablated agents across mixed-policy and custom-only arenas.
-                </p>
-                <p>
-                  <span class="tag">Multi-Agent RL</span>
-                  <span class="tag">POMDP</span>
-                  <span class="tag">Belief Modeling</span>
-                  <span class="tag">Q-Learning</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Mini-CLEVR VQA -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/VQA.png' width="160" alt="Mini-CLEVR VQA thumbnail">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://github.com/Fight-Ronin/Mini-CLEVR-VQA-Experiment" target="_blank" rel="noopener">
-                  <span class="papertitle">Mini-CLEVR VQA Experiments</span>
-                </a>
-                <br>
-                <em>Apr 2025</em>
-                <br>
-                <p>
-                  Built a lightweight VQA benchmark on the synthetic Mini-CLEVR dataset with a data generator, clean JSONL schema, and reproducible training scripts. Implemented ResNet-18 + SBERT and CLIP ViT-B/32 + LoRA baselines with a compact fusion head for fast ablations.
-                </p>
-                <p>
-                  <span class="tag">VQA</span>
-                  <span class="tag">CLIP</span>
-                  <span class="tag">LoRA</span>
-                  <span class="tag">Ablations</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Simple QR Code Scanner & Decoder -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/QR_scanner.png' width="160" alt="QR code project thumbnail">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://github.com/Fight-Ronin/QRCodeDetector" target="_blank" rel="noopener">
-                  <span class="papertitle">Simple QR Code Scanner and Decoder</span>
-                </a>
-                <br>
-                <em>Apr 2024</em>
-                <br>
-                <p>
-                  Implemented a traditional computer-vision QR scanner with Sauvola binarization, connected-component finder-pattern detection, right-angle geometry for pose estimation, and Kalman-filtered real-time tracking at roughly 20 FPS.
-                </p>
-                <p>
-                  <span class="tag">Classical CV</span>
-                  <span class="tag">Real-Time Tracking</span>
-                  <span class="tag">Kalman Filter</span>
-                </p>
-              </td>
-            </tr>
-
-            <!-- Game Jam -->
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/awaken.png' width="160" alt="Awaken game thumbnail">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://henry-yin.itch.io/awaken" target="_blank" rel="noopener">
-                  <span class="papertitle">“Awaken”</span>
-                </a>
-                <br>
-                <em>Sep 2021</em>
-                <br>
-                <p>
-                  A 3D indie game created by a seven-member team during a 48-hour Game Jam hosted by GameChangers 益·游未尽. I worked as a programmer on gameplay and interaction logic.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <!-- ===== End Projects Section ===== -->
-
-          <!-- ===== Teaching Section ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2 id="teaching">Teaching</h2>
-                <ul>
-                  <li>University of Rochester Teaching Assistant:</li>
-                  <ul>
-                    <li>CSC 242: Introduction to Artificial Intelligence</li>
-                    <li>MATH 141: Calculus I</li>
-                    <li>MATH 162: Calculus II</li>
-                  </ul>
-                  <li>CSUG Tutor: Computer Science and Mathematics</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- ===== End Teaching Section ===== -->
-
-          <!-- ===== Other Fun Stuff Section ===== -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2 id="fun">Other Fun Stuff</h2>
-                <ul>
-                  <li>I have played trumpet for many years, mostly classical music, and I am currently learning jazz.</li>
-                  <li>I enjoy FPS, adventure, ARPG, sandbox, and many other types of games.</li>
-                  <li>I enjoy basketball, badminton, and going to the gym.</li>
-                  <li>I am a Formula 1 fan.</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody></table>
-          <!-- ===== End Other Fun Stuff Section ===== -->
-
-          <!-- ===== Image Gallery Section (temporarily hidden) ===== -->
-          <!--
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle;text-align:center">
-                <h2 id="gallery">Image Gallery</h2>
-                <div class="solo">
-                  <figure>
-                    <a href="images/funFacts/trumpet_RC_1.jpg" target="_blank">
-                      <img src="images/funFacts/trumpet_RC_1.jpg" alt="Rehearsal at UR RC Orchestra">
-                    </a>
-                    <figcaption>Rehearsal at UR RC Orchestra, 2021</figcaption>
-                  </figure>
-                </div>
-                <div class="solo">
-                  <figure>
-                    <a href="images/funFacts/ISCMS_XII_2019.jpg" target="_blank">
-                      <img src="images/funFacts/ISCMS_XII_2019.jpg" alt="ISCMS XII Concert">
-                    </a>
-                    <figcaption>ISCMS XII Concert, 2019</figcaption>
-                  </figure>
-                </div>
-                <div class="solo">
-                  <figure>
-                    <img src="images/funFacts/steam_pic.png" alt="Steam Annual Report">
-                    <figcaption>Steam Annual Report, 2024</figcaption>
-                  </figure>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
-          -->
-          <!-- ===== End Image Gallery Section ===== -->
-
-          <!-- Footer Note -->
-          <div class="footer-note">
-            Template adapted with thanks to <a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" rel="noopener">Jon Barron</a>. Last updated: May 2026.
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="shell intro-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Graphics developer / AI researcher</p>
+            <h1>Hanzhang <span class="preferred-name">(Henry)</span> Yin</h1>
+            <p class="hero-lede" data-typewriter><span class="typewriter-source">I build and validate AI systems that make digital worlds look right, move right, and behave as intended.</span></p>
+            <p class="hero-note">
+              Master's student in Computer Science at Brown University, working at
+              the intersection of graphics, simulation, and embodied AI.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">Selected work ↗</a>
+              <a class="button button-quiet" href="mailto:hanzhang_yin@brown.edu">Email me</a>
+            </div>
+            <div class="profile-links" aria-label="Profile links">
+              <a href="data/CV_HanzhangYin.pdf">CV</a>
+              <a href="https://www.linkedin.com/in/henryyin12/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://x.com/HenryRuuu" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+              <a href="https://github.com/Fight-Ronin/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
           </div>
-        </td>
-      </tr>
-    </tbody></table>
+          <aside class="research-focus" aria-label="Current research">
+            <p class="focus-label">Current research</p>
+            <h2>Interactive worlds.<br>Explicit behavior.</h2>
+            <p>Intrinsic Operational Logic for articulated 3D objects.</p>
+            <div class="focus-methods">
+              <span>Represent</span>
+              <span>Simulate</span>
+              <span>Validate</span>
+            </div>
+            <a href="#iol">Explore the research ↗</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="work">
+        <div class="shell">
+          <div class="section-heading section-heading-dark">
+            <div>
+              <p class="section-index">01 / Graphics Related Research &amp; Development</p>
+              <h2>Selected work<span class="heading-period">.</span></h2>
+            </div>
+            <p>
+              A focused selection across reasoning, neural rendering, physical
+              simulation, and real-time graphics.
+            </p>
+          </div>
+
+          <div class="featured-grid">
+            <article class="project-card project-card-wide">
+              <div class="viewport-label"><span>01 / Operational logic</span><span>Research</span></div>
+              <a class="project-image image-contain" href="images/IOL.png" target="_blank" rel="noopener noreferrer" aria-label="Enlarge the Intrinsic Operational Logic diagram">
+                <img
+                  src="images/IOL.png"
+                  alt="Diagram of the Intrinsic Operational Logic framework"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <div class="project-copy">
+                <p class="project-kicker">Research · Brown University · Current</p>
+                <h3 id="iol">Intrinsic Operational Logic</h3>
+                <p>
+                  A portable, asset-level representation for articulated objects
+                  that encodes local rules such as latches, buttons, pedals,
+                  timers, interlocks, and coupled joints.
+                </p>
+                <details class="project-details">
+                  <summary>Implementation notes</summary>
+                  <p>
+                    The system mediates simulator-proposed joint updates and supports
+                    LLM-assisted authoring, controller synthesis, and semantic-trace
+                    repair for evaluating embodied interaction tasks.
+                  </p>
+                </details>
+                <p class="project-meta">
+                  With Daniel Ritchie · Graphics / DSL / LTL &amp; GR(1) /
+                  Embodied AI
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card project-card-tall">
+              <div class="viewport-label"><span>02 / Granular materials</span><span>Simulation</span></div>
+              <a
+                class="project-image"
+                href="https://github.com/Fight-Ronin/Sand2016"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Sand2016 on GitHub"
+              >
+                <img
+                  src="images/sand2016.png"
+                  alt="Material point method sand simulation"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <div class="project-copy">
+                <p class="project-kicker">Physics Simulation · April 2026</p>
+                <h3><a href="https://github.com/Fight-Ronin/Sand2016" target="_blank" rel="noopener noreferrer">Sand2016</a></h3>
+                <p>
+                  A physics-based material point method sand simulator with
+                  Drucker–Prager elastoplasticity, return mapping, hardening, and
+                  friction-angle control.
+                </p>
+                <p class="project-meta">MPM / Elastoplasticity / C++</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="viewport-label"><span>03 / Gaussian splatting</span><span>Rendering</span></div>
+              <a
+                class="project-image refined-project-image"
+                href="https://github.com/Fight-Ronin/ReSTIR-GS"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View ReSTIR-GS on GitHub"
+              >
+                <img
+                  src="images/restir_gs-designed.png"
+                  alt="AI-designed cover based on the original ReSTIR-GS apple, with illustrative sampling contours; not unmodified renderer output"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span class="cover-note">AI-designed cover</span>
+              </a>
+              <div class="project-copy">
+                <p class="project-kicker">Realtime Rendering · June 2026</p>
+                <h3><a href="https://github.com/Fight-Ronin/ReSTIR-GS" target="_blank" rel="noopener noreferrer">ReSTIR-GS</a></h3>
+                <p>
+                  An experimental Gaussian Splatting pipeline adapting ReSTIR-style
+                  reservoir resampling for visibility-aware reuse across pixels
+                  and frames.
+                </p>
+                <p class="project-meta">Gaussian Splatting / ReSTIR / Temporal Stability</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="viewport-label"><span>04 / Procedural worlds</span><span>Graphics</span></div>
+              <a
+                class="project-image"
+                href="https://github.com/Fight-Ronin/Amazing-Terrain"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Amazing Terrain on GitHub"
+              >
+                <img
+                  src="images/Amazing_Terrain.png"
+                  alt="Realtime procedurally generated terrain and vegetation"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <div class="project-copy">
+                <p class="project-kicker">Realtime Graphics · December 2025</p>
+                <h3><a href="https://github.com/Fight-Ronin/Amazing-Terrain" target="_blank" rel="noopener noreferrer">Amazing Terrain</a></h3>
+                <p>
+                  A procedural environment renderer with fBm terrain, layered PBR
+                  materials, L-System vegetation, weather, water, fog, and
+                  instanced rendering.
+                </p>
+                <p class="project-meta">C++ / OpenGL / GLSL</p>
+              </div>
+            </article>
+          </div>
+
+          <p class="collection-link"><a href="blog/studies/blog-studies-graphics.html#graphics-studies">Explore more graphics studies on my blog :)</a></p>
+        </div>
+      </section>
+
+      <section class="section section-paper" id="research">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-index">02 / Research++</p>
+              <h2>Other CS Research<span class="heading-period">.</span></h2>
+            </div>
+            <p>
+              Work across clinical machine learning and generative imaging, with
+              an emphasis on systems that can be tested rather than merely observed.
+            </p>
+          </div>
+
+          <div class="research-list">
+            <article class="research-row">
+              <div class="research-number">R.01</div>
+              <div class="research-image refined-project-image">
+                <img
+                  src="images/PD_hospice-designed.png"
+                  alt="PRISM: 6-Month Mortality in PD. An older adult, predictive network, and forecast symbol arranged as a left-to-right illustrated workflow"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </div>
+              <div class="research-copy">
+                <p class="project-kicker">Medical AI · University of Rochester / URMC · 2024–2026</p>
+                <h3>PRISM: PD End-of-Life Prognostication</h3>
+                <p>
+                  A Parkinson's-disease-specific machine learning model for
+                  six-month end-of-life prognostication among nursing home
+                  residents, evaluated against Medicare hospice guidelines.
+                </p>
+                <p class="project-meta">Clinical ML / LightGBM / Bi-LSTM / Prognostication</p>
+              </div>
+            </article>
+
+            <article class="research-row">
+              <div class="research-number">R.02</div>
+              <div class="research-image refined-project-image dark-cover">
+                <img
+                  src="images/DCVC_dps.png"
+                  alt="AI-designed illustrative comparison of an original scene, block-compressed representation, soft reconstruction, and refined reconstruction"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span class="cover-note">AI-designed cover</span>
+              </div>
+              <div class="research-copy">
+                <p class="project-kicker">Generative Imaging · Tsinghua AIR Lab · 2024</p>
+                <h3>Image Compression and Generation</h3>
+                <p>
+                  Investigating how Deep Contextual Video Compression and
+                  Diffusion Posterior Sampling can combine compression, denoising,
+                  and generative reconstruction.
+                </p>
+                <p class="project-meta">With Yan Wang · Compression / Diffusion / FID &amp; PSNR</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="experience">
+        <div class="shell">
+          <div class="section-heading compact-heading">
+            <div>
+              <p class="section-index">03 / Experience</p>
+              <h2>Experience &amp; teaching<span class="heading-period">.</span></h2>
+            </div>
+          </div>
+
+          <div class="experience-grid">
+            <article class="experience-card">
+              <div class="experience-topline">
+                <p>Software Development Engineer Intern</p>
+                <p>Jun–Aug 2023</p>
+              </div>
+              <h3>
+                <a href="https://keeperai.com/" target="_blank" rel="noopener noreferrer">KeeperAI</a>
+              </h3>
+              <ul>
+                <li>
+                  Developed and enhanced front-end experiences with JavaScript and
+                  Fluent UI.
+                </li>
+                <li>
+                  Integrated external NLP chatbot plugins for event scheduling
+                  inside Microsoft Teams.
+                </li>
+                <li>
+                  Resolved login-verification vulnerabilities by redesigning
+                  regular expressions and account-verification logic across web
+                  and database APIs.
+                </li>
+              </ul>
+              <p class="project-meta">JavaScript / Fluent UI / Microsoft Teams / Web Security</p>
+            </article>
+
+            <article class="experience-card">
+              <div class="experience-topline">
+                <p>Teaching Assistant &amp; CSUG Tutor</p>
+                <p>Undergraduate</p>
+              </div>
+              <h3>University of Rochester</h3>
+              <ul>
+                <li>
+                  CSC 242: Introduction to Artificial Intelligence.
+                </li>
+                <li>
+                  MATH 141: Calculus I and MATH 162: Calculus II.
+                </li>
+                <li>
+                  Tutored students across computer science and mathematics.
+                </li>
+              </ul>
+              <p class="project-meta">Artificial Intelligence / Mathematics / Mentorship</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-paper" id="more-work">
+        <div class="shell">
+          <div class="section-heading compact-heading">
+            <div>
+              <p class="section-index">04 / More Work</p>
+              <h2>More work<span class="heading-period">.</span></h2>
+            </div>
+          </div>
+
+          <h3 class="collection-title">Experiments, studies &amp; interactive projects</h3>
+          <div class="work-grid">
+            <article class="small-project">
+              <a href="data/Arena_RL.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="images/Arena_RL.png" alt="Reinforcement learning arena experiment" loading="lazy" decoding="async">
+              </a>
+              <div>
+                <p class="project-kicker">Reinforcement Learning · 2024</p>
+                <h4><a href="data/Arena_RL.pdf" target="_blank" rel="noopener noreferrer">Belief-Aware Multi-Agent RL Arena</a></h4>
+                <p>A belief-aware agent for partially observable, stochastic grid combat.</p>
+              </div>
+            </article>
+
+            <article class="small-project">
+              <a href="https://github.com/Fight-Ronin/Mini-CLEVR-VQA-Experiment" target="_blank" rel="noopener noreferrer">
+                <img src="images/VQA-designed.png" alt="Illustrative Mini-CLEVR VQA workflow: a red sphere, blue cube, and yellow cylinder plus the question What color is the sphere? feed a VQA model, yielding Red" loading="lazy" decoding="async">
+              </a>
+              <div>
+                <p class="project-kicker">Vision &amp; Language · 2024</p>
+                <h4><a href="https://github.com/Fight-Ronin/Mini-CLEVR-VQA-Experiment" target="_blank" rel="noopener noreferrer">Mini-CLEVR VQA</a></h4>
+                <p>A reproducible VQA benchmark with ResNet/SBERT and CLIP/LoRA baselines.</p>
+                <div class="project-resource-links" aria-label="Mini-CLEVR VQA resources">
+                  <a href="https://github.com/Fight-Ronin/Mini-CLEVR-VQA-Experiment" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="small-project">
+              <a class="refined-project-image" href="data/An-Analysis-Of-Rectangular-Arrays-In-Ancient-Chinese-Mathmatics.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="images/Fangcheng_math.jpg" alt="AI-refined cover preserving a blue thread-bound edition of The Nine Chapters on the Mathematical Art" loading="lazy" decoding="async">
+                <span class="cover-note">AI-refined cover</span>
+              </a>
+              <div>
+                <p class="project-kicker">History of Mathematics · 2024</p>
+                <h4><a href="data/An-Analysis-Of-Rectangular-Arrays-In-Ancient-Chinese-Mathmatics.pdf" target="_blank" rel="noopener noreferrer">The Ancient Roots of Linear Algebra</a></h4>
+                <p>A study of rectangular-array methods in <em>The Nine Chapters on the Mathematical Art</em> and their relationship to modern linear algebra.</p>
+                <div class="project-resource-links" aria-label="Ancient linear algebra study resources">
+                  <a href="data/An-Analysis-Of-Rectangular-Arrays-In-Ancient-Chinese-Mathmatics.pdf" target="_blank" rel="noopener noreferrer">Paper ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="small-project">
+              <a href="data/Survey_to_LoRa_Report.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="images/lora-variants-designed-v2.png" alt="Low-rank adaptation visualized as a large matrix decomposed into compact factor matrices and several adapted outputs" loading="lazy" decoding="async">
+              </a>
+              <div>
+                <p class="project-kicker">Parameter-Efficient Fine-Tuning · Survey</p>
+                <h4><a href="data/Survey_to_LoRa_Report.pdf" target="_blank" rel="noopener noreferrer">A Survey of LoRA Variants</a></h4>
+                <p>A comparative study of LoRA variants, including AdaLoRA and LoRA-FA, evaluated on GSM8K and GSM-Plus.</p>
+                <div class="project-resource-links" aria-label="LoRA survey resources">
+                  <a href="data/Survey_to_LoRa_Report.pdf" target="_blank" rel="noopener noreferrer">Report ↗</a>
+                  <a href="https://github.com/Fight-Ronin/A-Survey-to-LoRa-Variant" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section section-cream" id="tools" aria-labelledby="tools-heading">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-index">05 / Tools</p>
+              <h2 id="tools-heading">Tools<span class="heading-period">.</span></h2>
+            </div>
+            <p>Small, focused utilities for everyday development and visual computing.</p>
+          </div>
+
+          <div class="work-grid">
+            <article class="small-project">
+              <a href="https://github.com/Fight-Ronin/token-helper" target="_blank" rel="noopener noreferrer">
+                <img src="images/token_helper-designed.png" alt="Token Helper icon: a usage gauge with teal and vermilion bars on a charcoal background" loading="lazy" decoding="async">
+              </a>
+              <div>
+                <p class="project-kicker">Developer Tool · 2025</p>
+                <h3><a href="https://github.com/Fight-Ronin/token-helper" target="_blank" rel="noopener noreferrer">Token Helper</a></h3>
+                <p>A lightweight utility for inspecting and managing token usage.</p>
+              </div>
+            </article>
+
+            <article class="small-project">
+              <a href="https://github.com/Fight-Ronin/QRCodeDetector" target="_blank" rel="noopener noreferrer">
+                <img src="images/QR_scanner.png" alt="QR code scanner and decoder result" loading="lazy" decoding="async">
+              </a>
+              <div>
+                <p class="project-kicker">Classical Computer Vision · 2024</p>
+                <h3><a href="https://github.com/Fight-Ronin/QRCodeDetector" target="_blank" rel="noopener noreferrer">QR Code Scanner</a></h3>
+                <p>Sauvola binarization, geometric pose estimation, and Kalman-filtered tracking.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about" id="about">
+        <div class="shell about-grid">
+          <div class="about-portrait">
+            <img src="images/HanzhangYin.jpg" alt="Portrait of Hanzhang Yin" loading="lazy" decoding="async">
+            <p>Providence, Rhode Island</p>
+          </div>
+          <div class="about-copy">
+            <p class="section-index">06 / About</p>
+            <h2>A little about me<span class="heading-period">.</span></h2>
+            <p class="about-lede">
+              Hi, I'm Hanzhang — you can call me Henry. I am pursuing an Sc.M. in
+              Computer Science at
+              <a href="https://cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown University</a>,
+              advised by
+              <a href="https://dritchie.github.io/" target="_blank" rel="noopener noreferrer">Daniel Ritchie</a>.
+              I earned dual B.S. degrees in Computer Science and Applied Mathematics from the
+              <a href="https://www.rochester.edu/" target="_blank" rel="noopener noreferrer">University of Rochester</a>.
+            </p>
+            <p>
+              My work tends to begin with the same question: how can we make
+              intelligent systems easier to understand, test, and trust when they
+              interact with complex visual or physical environments?
+            </p>
+            <div class="interests" aria-label="Technical interests">
+              <span>Computer Graphics</span>
+              <span>Simulation</span>
+              <span>Embodied AI</span>
+              <span>Machine Learning</span>
+              <span>Computer Vision</span>
+              <span>Verification</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <p class="footer-kicker">Let's make something behave.</p>
+          <a class="footer-email" href="mailto:hanzhang_yin@brown.edu">hanzhang_yin@brown.edu</a>
+        </div>
+        <div class="footer-meta">
+          <p>© 2026 Hanzhang Yin</p>
+          <p> Last updated: Sep 2026</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
