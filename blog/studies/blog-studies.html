@@ -8,14 +8,15 @@
     <title>Studies — Blog — Hanzhang (Henry) Yin</title>
     <link rel="icon" type="image/x-icon" href="../../images/favicon/favicon.ico">
     <link rel="stylesheet" href="../../stylesheet.css">
+    <script src="../../navigation.js" defer></script>
   </head>
-  <body class="blog-page">
+  <body class="blog-page with-section-nav">
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <nav class="site-nav shell" aria-label="Primary navigation">
         <div class="site-identity">
           <a class="wordmark" href="../../index.html" aria-label="Hanzhang Yin, home">
-            <span class="wordmark-mark" aria-hidden="true">HY</span>
+            <span class="wordmark-mark" aria-hidden="true"><img src="../../images/favicon/android-chrome-192x192.png" alt="" width="34" height="34"></span>
             <span>Hanzhang Yin</span>
           </a>
           <div class="page-switch" role="group" aria-label="Page selection">
@@ -24,12 +25,33 @@
           </div>
         </div>
         <div class="nav-links">
-          <a href="../interests/blog-interests.html">Interests</a>
-          <a href="blog-studies.html">Studies</a>
+          <button class="section-menu-toggle" type="button" aria-controls="section-navigation" aria-expanded="false" aria-label="Open page index">
+            <span aria-hidden="true">›</span>
+          </button>
           <a class="nav-resume" href="../../data/CV_HanzhangYin.pdf">Résumé</a>
         </div>
       </nav>
     </header>
+
+    <div class="section-nav-backdrop" data-section-nav-dismiss aria-hidden="true"></div>
+    <aside class="section-nav" id="section-navigation" aria-label="Blog index">
+      <div class="section-nav-header">
+        <div><strong>Blog index</strong></div>
+        <button class="section-nav-close" type="button" data-section-nav-dismiss aria-label="Close section navigation">×</button>
+      </div>
+      <nav class="section-nav-links" aria-label="Blog pages">
+        <a href="../blog.html"><span>00</span>Overview</a>
+        <a href="../interests/blog-interests.html"><span>01</span>Interests</a>
+        <a class="is-ancestor" href="blog-studies.html"><span>02</span>Studies</a>
+        <a href="../artwork/blog-artwork.html"><span>03</span>Artwork</a>
+      </nav>
+      <p class="section-nav-group-label">Study topics</p>
+      <nav class="section-nav-links" aria-label="Study topics">
+        <a href="blog-studies.html" aria-current="page"><span>02.0</span>All topics</a>
+        <a href="blog-studies-graphics.html"><span>02.1</span>Graphics</a>
+        <a href="blog-studies-ml.html"><span>02.2</span>Machine Learning</a>
+      </nav>
+    </aside>
 
     <main id="main-content">
       <section class="blog-intro" id="top" aria-labelledby="blog-title">
@@ -37,19 +59,8 @@
           <p class="eyebrow">Blog / Studies</p>
           <h1 id="blog-title">Studies<span class="heading-period">.</span></h1>
           <p>Learning notes and experiments in graphics, machine learning, and beyond.</p>
-          <nav class="blog-subnav" aria-label="Blog pages">
-            <a href="../blog.html">Overview</a>
-            <a href="../interests/blog-interests.html">Interests</a>
-            <a href="blog-studies.html" aria-current="page">Studies</a>
-          </nav>
         </div>
       </section>
-
-      <nav class="study-topics shell" aria-label="Study topics">
-        <a href="blog-studies.html" aria-current="page">All topics <span>Overview</span></a>
-        <a href="blog-studies-graphics.html">Graphics <span>4 studies</span></a>
-        <a href="blog-studies-ml.html">Machine Learning <span>Notes to come</span></a>
-      </nav>
 
       <section class="section section-paper" aria-labelledby="topics-heading">
         <div class="shell">

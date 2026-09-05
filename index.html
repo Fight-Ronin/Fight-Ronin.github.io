@@ -12,16 +12,17 @@
     <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="slogan.js" defer></script>
+    <script src="navigation.js" defer></script>
   </head>
 
-  <body>
+  <body class="with-section-nav">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
       <nav class="site-nav shell" aria-label="Primary navigation">
         <div class="site-identity">
           <a class="wordmark" href="#top" aria-label="Hanzhang Yin, home">
-            <span class="wordmark-mark" aria-hidden="true">HY</span>
+            <span class="wordmark-mark" aria-hidden="true"><img src="images/favicon/android-chrome-192x192.png" alt="" width="34" height="34"></span>
             <span>Hanzhang Yin</span>
           </a>
           <div class="page-switch" role="group" aria-label="Page selection">
@@ -30,15 +31,38 @@
           </div>
         </div>
         <div class="nav-links">
-          <a href="#work">Work</a>
-          <a href="#research">Research</a>
-          <a href="#experience">Experience</a>
-          <a href="#tools">Tools</a>
-          <a href="#about">About</a>
+          <button
+            class="section-menu-toggle"
+            type="button"
+            aria-controls="section-navigation"
+            aria-expanded="false"
+            aria-label="Open page index"
+          >
+            <span aria-hidden="true">›</span>
+          </button>
           <a class="nav-resume" href="data/CV_HanzhangYin.pdf">Résumé</a>
         </div>
       </nav>
     </header>
+
+    <div class="section-nav-backdrop" data-section-nav-dismiss aria-hidden="true"></div>
+    <aside class="section-nav" id="section-navigation" aria-label="Page sections">
+      <div class="section-nav-header">
+        <div>
+          <strong>Index</strong>
+        </div>
+        <button class="section-nav-close" type="button" data-section-nav-dismiss aria-label="Close section navigation">×</button>
+      </div>
+      <nav class="section-nav-links" aria-label="Portfolio section navigation">
+        <a href="#top" data-section-link aria-current="location"><span>00</span>Overview</a>
+        <a href="#work" data-section-link><span>01</span>Graphics</a>
+        <a href="#research" data-section-link><span>02</span>Research</a>
+        <a href="#experience" data-section-link><span>03</span>Experience</a>
+        <a href="#more-work" data-section-link><span>04</span>Projects</a>
+        <a href="#tools" data-section-link><span>05</span>Tools</a>
+        <a href="#about" data-section-link><span>06</span>About</a>
+      </nav>
+    </aside>
 
     <main id="main-content">
       <section class="hero" id="top">
@@ -78,7 +102,7 @@
         <div class="shell">
           <div class="section-heading section-heading-dark">
             <div>
-              <p class="section-index">01 / Graphics Related Research &amp; Development</p>
+              <p class="section-index">01 / Graphics Research &amp; Development</p>
               <h2>Selected work<span class="heading-period">.</span></h2>
             </div>
             <p>
@@ -160,7 +184,6 @@
               >
                 <img
                   src="images/restir_gs-designed.png"
-                  alt="AI-designed cover based on the original ReSTIR-GS apple, with illustrative sampling contours; not unmodified renderer output"
                   loading="lazy"
                   decoding="async"
                 >
@@ -214,8 +237,8 @@
         <div class="shell">
           <div class="section-heading">
             <div>
-              <p class="section-index">02 / Research++</p>
-              <h2>Other CS Research<span class="heading-period">.</span></h2>
+              <p class="section-index">02 / AI &amp; Computational Research</p>
+              <h2>Research beyond graphics<span class="heading-period">.</span></h2>
             </div>
             <p>
               Work across clinical machine learning and generative imaging, with
@@ -265,7 +288,7 @@
                   Diffusion Posterior Sampling can combine compression, denoising,
                   and generative reconstruction.
                 </p>
-                <p class="project-meta">Instructed by Yan Wang · Compression / Diffusion / FID &amp; PSNR</p>
+                <p class="project-meta">Instructed by Prof. Yan Wang · Compression / Diffusion / FID &amp; PSNR</p>
               </div>
             </article>
 
@@ -277,7 +300,7 @@
         <div class="shell">
           <div class="section-heading compact-heading">
             <div>
-              <p class="section-index">03 / Experience</p>
+              <p class="section-index">03 / Experience &amp; Teaching</p>
               <h2>Experience &amp; teaching<span class="heading-period">.</span></h2>
             </div>
           </div>
@@ -336,8 +359,8 @@
         <div class="shell">
           <div class="section-heading compact-heading">
             <div>
-              <p class="section-index">04 / More Work</p>
-              <h2>More work<span class="heading-period">.</span></h2>
+              <p class="section-index">04 / Projects &amp; Experiments</p>
+              <h2>Projects &amp; experiments<span class="heading-period">.</span></h2>
             </div>
           </div>
 
@@ -370,8 +393,7 @@
 
             <article class="small-project">
               <a class="refined-project-image" href="data/An-Analysis-Of-Rectangular-Arrays-In-Ancient-Chinese-Mathmatics.pdf" target="_blank" rel="noopener noreferrer">
-                <img src="images/Fangcheng_math.jpg" alt="AI-refined cover preserving a blue thread-bound edition of The Nine Chapters on the Mathematical Art" loading="lazy" decoding="async">
-                <span class="cover-note">AI-refined cover</span>
+                <img src="images/Fangcheng_math.jpg" loading="lazy" decoding="async">
               </a>
               <div>
                 <p class="project-kicker">History of Mathematics · 2024</p>
@@ -406,7 +428,7 @@
         <div class="shell">
           <div class="section-heading">
             <div>
-              <p class="section-index">05 / Tools</p>
+              <p class="section-index">05 / Developer Tools</p>
               <h2 id="tools-heading">Tools<span class="heading-period">.</span></h2>
             </div>
             <p>Small, focused utilities for everyday development and visual computing.</p>
@@ -445,8 +467,8 @@
             <p>Ithaca, New York</p>
           </div>
           <div class="about-copy">
-            <p class="section-index">06 / About</p>
-            <h2>A little about me<span class="heading-period">.</span></h2>
+            <p class="section-index">06 / Profile</p>
+            <h2>About me<span class="heading-period">.</span></h2>
             <p class="about-lede">
               Hi, I'm Hanzhang — you can call me Henry. I am pursuing an Sc.M. in
               Computer Science at
