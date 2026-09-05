@@ -561,7 +561,7 @@ h4 {
 
 .project-image {
   display: block;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 2 / 1;
   flex-shrink: 0;
   overflow: hidden;
   border-bottom: 1px solid var(--line-dark);
@@ -570,7 +570,7 @@ h4 {
 
 .project-card-wide .project-image,
 .project-card-tall .project-image {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 2 / 1;
 }
 
 .project-image img {
