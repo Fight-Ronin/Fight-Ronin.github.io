@@ -61,10 +61,35 @@
           <div class="section-heading">
             <div>
               <p class="section-index">03 / Procedural art</p>
-              <h2 id="artwork-heading">Generated through systems<span class="heading-period">.</span></h2>
+              <h2 id="artwork-heading">The engine behind the work<span class="heading-period">.</span></h2>
             </div>
-            <p>Visual experiments shaped through code, rules, simulation, and controlled randomness.</p>
+            <p>A shader-first WebGL2 foundation for procedural artwork that stays reproducible from preview to export.</p>
           </div>
+
+          <article class="artwork-engine" aria-labelledby="engine-title">
+            <div class="artwork-engine-copy">
+              <p class="project-kicker">Creation engine / WebGL2</p>
+              <h3 id="engine-title">procedural_art<span class="heading-period">.</span></h3>
+              <p>Hand-built for deterministic, resolution-independent artwork: each frame is reproducible from its seed and frame number, whether it is previewed, rendered, or exported in tiles.</p>
+              <div class="artwork-engine-traits" aria-label="Engine characteristics">
+                <span>GLSL-first</span>
+                <span>Deterministic frames</span>
+                <span>Tiled export</span>
+              </div>
+              <div class="artwork-engine-actions">
+                <a class="button button-quiet" href="https://github.com/Fight-Ronin/procedural_art" target="_blank" rel="noopener noreferrer">Explore the engine on GitHub ↗</a>
+              </div>
+            </div>
+            <div class="artwork-engine-layers" aria-label="Engine architecture">
+              <p class="project-kicker">Architecture</p>
+              <ol>
+                <li><code>basics/</code><span>pure GLSL function library</span></li>
+                <li><code>visualization/</code><span>TypeScript and WebGL2 infrastructure</span></li>
+                <li><code>artwork/</code><span>self-contained GLSL and JSON pieces</span></li>
+              </ol>
+            </div>
+          </article>
+
           <div class="notes-empty artwork-empty">
             <p class="project-kicker">Works in progress</p>
             <p>Procedural art studies will appear here as the collection grows.</p>
